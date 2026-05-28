@@ -7,9 +7,9 @@ namespace PC12320010024100433.core.Infrastructure.Repositories
 {
     public class TipoServicioRepository : ITipoServicioRepository
     {
-        private readonly TallerMecanicoDB _context;
+        private readonly TallerMecanicoDbContext _context;
 
-        public TipoServicioRepository(TallerMecanicoDB context)
+        public TipoServicioRepository(TallerMecanicoDbContext context)
         {
             _context = context;
         }
