@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PC12320010024100433.core.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace PC12320010024100433.core.Core.Entities;
 
-public partial class OrdenServicio
+public partial class OrdenServicio : IOrdenServicio
 {
     public int Id { get; set; }
 
